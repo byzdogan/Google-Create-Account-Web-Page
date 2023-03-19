@@ -1,0 +1,183 @@
+body  {
+    margin: 0;
+    padding: 0;
+    background-color: #ffff;
+}
+
+.main {
+    width: 100%;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    width: 750px;
+    padding: 48px 40px 36px 40px;
+}
+
+h1{
+    font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.3333;
+    position: relative;
+    margin: 15px 0  0 0;
+    color: #202124;
+}
+
+input {
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    height: 35px;
+    padding: 0 10px;
+    font-size: 15px;
+    outline: none;
+}
+
+input:focus {
+    border: 2px solid #3367d6;
+}
+
+.name {
+    display: inline-block;
+}
+
+input[type="name"] {
+    display: block;
+    margin: 30px 0 0 0;
+}
+
+#lname {
+    margin-left: 10px;
+}
+
+.mail-adress {
+    position: relative;
+    display: block;
+    top: -47px;
+    left: 350px;
+    font-family:roboto;
+    color: #272727;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: default;        
+}
+
+input[type="email"] {
+    display: block;
+    margin: 10px 0 0 0px;
+    width: 420px;
+}
+
+input[type="password"] {
+    display: block;
+    margin: 10px 0 0 0px;
+}
+
+.password-part {
+    display: inline-block;
+}
+
+.password {
+    display: block;
+    margin: 0 0 0 10px;
+}
+
+#confirm {
+    margin-left: 10px;
+}
+
+label {
+    position: relative;
+    font-family:roboto;
+    color: #555;
+    font-size: 15px;
+    font-weight: 400;
+    pointer-events: none;
+    left: 10px;
+    top: -28px;
+    pointer-events: none;
+}
+
+.info-username {
+    font: 400 12px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    margin: -30px 0 0 5px;
+    color: #5f6368;;
+}
+
+.op-username {
+    color: #1a73e8;
+    font: 600 14px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    margin: 20px 0 30px 0px;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 0.5px;
+}
+
+.info-password {
+    font: 400 12px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    margin: -10px 0 0 5px;
+    width: 350px;
+    color: #5f6368;;
+}
+
+.op-signin {
+    color: #1a73e8;
+    font: 800 14px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    margin: 20px 8px 20px 0px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    display: inline-block;
+}
+
+.checkbox-part {
+    margin: 20px 0;
+    display: inline-flex;
+}
+
+#checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+#checkbox-text {
+    text-align: center;
+    margin: 5px 0px 0px 15px;
+    color: #202124;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+    cursor: pointer;
+}
+
+button {
+    background: #3367d6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    margin:  30px 0 0 260px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.side-image{
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: 50%;
+    transform: translate(50%,50%);
+    width: 244px;
+    height: 244px;
+}
+
+.side-text {
+    text-align: center;
+    color: #202124;
+    font-size: 16px;
+    font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+}
