@@ -38,10 +38,6 @@ input {
     outline: none;
 }
 
-input:focus {
-    border: 2px solid #3367d6;
-}
-
 .name {
     display: inline-block;
 }
@@ -97,10 +93,26 @@ label {
     color: #555;
     font-size: 15px;
     font-weight: 400;
-    pointer-events: none;
     left: 10px;
     top: -28px;
     pointer-events: none;
+    transition: all .2s;
+}
+
+/* For outside border of inputs */
+input:focus {
+    border: 2px solid #3367d6;
+}
+
+/* For labels when user focus on inputs, otherwise label do not disappear when user focus on input */
+input:focus ~label,
+input:valid ~ label{
+  top: -49px;
+  left: 15px;
+  background: #fff;
+  padding: 0 5px;
+  font-size: 10px;
+  color: #3367d6;
 }
 
 .info-username {
@@ -163,6 +175,10 @@ button {
     margin:  30px 0 0 250px;
     cursor: pointer;
     font-size: 15px;
+}
+
+button:hover{
+    background: #254fdb;
 }
 
 .side-image{
